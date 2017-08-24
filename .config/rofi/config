@@ -1,0 +1,11 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: argb:ee222222, #fbb900, #fbb900
+rofi.color-normal: argb:0000000, #d8dee9, argb:0000000, #FBB900, #1b2b34
+rofi.color-active: argb:0000000, #fbb900, argb:0000000, #fbb900, #1b2b34
+rofi.color-urgent: argb:0000000, #f99157, argb:0000000, #f99157, #1b2b34
+
+! Separator style (none, dash, solid)
+rofi.separator-style:                solid
