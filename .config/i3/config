@@ -18,7 +18,7 @@ set $darkergreen #269244
 #client.focused          #708090 #506070 #EEEEEE
 client.focused          $focusYellow $focusYellow $black
 #client.focused_inactive #555555 #5F676A #EEEEEE
-client.focused_inactive $backgroundBlack $backgroundBlack $focusYellow 
+client.focused_inactive $backgroundBlack $backgroundBlack $focusYellow
 #client.unfocused        #555555 #222222 #888888
 client.unfocused        $backgroundBlack $backgroundBlack $inactive
 
@@ -26,7 +26,7 @@ hide_edge_borders smart
 
 # Font
 #font pango:DejaVu Sans 8
-font pango:Source Sans Pro 10 
+font pango:Source Sans Pro 10
 
 #exec --no-startup-id cinnamon-settings-daemon
 
@@ -40,7 +40,7 @@ exec --no-startup-id compton --config ~/.config/i3/compton.conf -b
 exec --no-startup-id dunst -config ~/.config/i3/dunst.conf
 
 #Autolock
-exec xautolock -detectsleep -time 5 -locker 'i3lock -g -p -- scrot -z'
+exec xautolock -detectsleep -time 5 -locker 'i3lock-fancy -gp -- scrot -z'
 
 # Wallpaper
 #exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/cat-and-guy.jpg
@@ -194,7 +194,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # Lock screen
 #bindsym $mod+Shift+p exec i3lock -i ~/Pictures/wallpapers/minimalist-fairy-tail-happy.png
 #bindsym $mod+Shift+p exec i3lock -i ~/Pictures/wallpapers/mario-boo_scaled.png -t
-bindsym $mod+Shift+p exec i3lock-fancy -g -p -- scrot -z
+bindsym $mod+Shift+p exec i3lock-fancy -gp -- scrot -z
 #bindsym $mod+Shift+p exec dm-tool lock
 
 # Scratchpad
@@ -260,7 +260,7 @@ bindsym $mod+Pause mode "$mode_system"
 
 # Start i3bar to display a workspace bar
 bar {
-#  font pango: Dejavu Sans Mono, FontAwesome 9 
+#  font pango: Dejavu Sans Mono, FontAwesome 9
   font pango: Source Code Pro, FontAwesome 9
 #  status_command py3status -c ~/.config/i3/i3status.conf
 #  status_command i3status -c ~/.config/i3/i3status.conf
