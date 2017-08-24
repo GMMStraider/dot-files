@@ -1,0 +1,48 @@
+! special
+*.foreground:   #efefef
+*.background:   #151515
+*.cursorColor:  #efefef
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #b5392c
+*.color9:       #b5726b
+
+! green
+*.color2:       #508d4c
+*.color10:      #819f7f
+
+! yellow
+*.color3:       #fbb900
+*.color11:      #fbda7d
+
+! blue
+*.color4:       #2480bd
+*.color12:      #6098bd
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
+
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+XTerm*faceName: Source Code Pro                                       
+XTerm.vt100.boldFont: Source Code Pro:style=Semibold
+XTerm*faceSize: 10
