@@ -261,7 +261,7 @@ bindsym $mod+Pause mode "$mode_system"
 # Start i3bar to display a workspace bar
 bar {
 #  font pango: Dejavu Sans Mono, FontAwesome 9
-  font pango: Source Code Pro, FontAwesome 9
+  font pango: Source Code Pro Medium, FontAwesome 9
 #  status_command py3status -c ~/.config/i3/i3status.conf
 #  status_command i3status -c ~/.config/i3/i3status.conf
   status_command i3blocks -c ~/.config/i3/i3blocks.conf
