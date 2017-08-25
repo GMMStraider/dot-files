@@ -43,6 +43,6 @@ Xft.dpi: 96
 Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
 
-XTerm*faceName: Source Code Pro                                       
+XTerm*faceName: Source Code Pro Medium                                      
 XTerm.vt100.boldFont: Source Code Pro:style=Semibold
 XTerm*faceSize: 10
